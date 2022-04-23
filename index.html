@@ -148,13 +148,14 @@
           <div class="escribeme">
             <h1>Escribime</h1>
             <form action="">
-              Nombre*<input type="text" placeholder="p. Ej.:Ada" />
-              Apellido*<input type="text" placeholder="p. Ej.:Lovelace" />
+              <label for="nombre">Nombre* </label>
+              <label for="apellido">Apellido* </label> <br />
+              <input type="text" placeholder="p. Ej.:Ada" />
+              <input type="text" placeholder="p. Ej.:Lovelace" /> <br />
 
-              Email*<input
-                type="email"
-                placeholder="p. Ej.:ada.lovelace@gmail.com"
-              />
+              <label for="email">Email* </label> <br />
+              <input type="email" placeholder="p. Ej.:ada.lovelace@gmail.com" />
+              <br />
 
               <label for="consultas">Mensaje</label>
               <br />
@@ -163,7 +164,8 @@
                 cols="40"
                 placeholder="Escriba su mensaje aqui"
               ></textarea>
-              <input type="submit" />
+              <br />
+              <input type="submit" id="enviar" />
             </form>
           </div>
         </div>

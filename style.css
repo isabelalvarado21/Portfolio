@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  box-shadow: 2px 0px 20px 2px lightgrey ;
 }
 .nav {
   display: flex;
@@ -25,7 +26,7 @@ li {
   padding: 20px;
   font-weight:300;
 }
-li:hover {
+#barra_de_navegacion li:hover {
   color: blueviolet;
 }
 .contacto {
@@ -35,9 +36,7 @@ li:hover {
   color: white;
   border: none;
 }
-.contacto:hover {
-  color: white;
-}
+
 #principal {
   display: flex;
   padding: 100px 80px 170px;
@@ -243,14 +242,12 @@ a:active {
 #form div {
   width: 500px;
   height: 600px;
-
-
   font-weight: 400;
 }
 #form h1 {
   padding-top: 80px;
   font-size: 45px;
-    font-weight: 900;
+  font-weight: 900;
   padding-bottom: 40px;
 }
 
@@ -259,10 +256,35 @@ a:active {
 }
 #form a {
   color: black;
+  margin: 15px;
 }
 #links {
   padding-top: 50px;
 }
+
+input{
+  background-color: #f6f7fb;
+  border: 2px solid #f6f7fb;
+  border-radius: 20px;
+  padding: 10px 15px;
+  
+}
+textarea{
+  background-color: #f6f7fb;
+  border: 2px solid #f6f7fb;
+  border-radius: 20px; 
+  padding: 10px 15px; 
+}
+#enviar{
+  padding: 20px 20px;
+  background-color: #8338ec;
+  border-radius: 100px;
+  color: white;
+  border: none;
+}
+
+
+
 footer {
   background-color: #8338ec;
   font-weight: 600;
@@ -278,3 +300,4 @@ footer p {
   justify-content: center;
   text-align: center;
 }
+ 
