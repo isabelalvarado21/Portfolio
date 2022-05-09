@@ -20,21 +20,22 @@
     />
   </head>
   <body>
+    <!-- Contenedor -->
     <div id="contenedor">
     <!-- Barra de Navegacion -->
     <div class="barra_oculta"><i class="fa-solid fa-bars"></i></div>
       <nav class="barra_de_navegacion">
         <ul class="opciones">
-          <li><a href="#principal">HOLA</li></a> 
-          <li><a href="#mis_conocimientos">CONOCIMIENTOS</li></a> 
-          <li><a href="#mis_proyectos">PROYECTOS</li></a> 
-          <li id="contacto"><a href="#formulario">CONTACTO</li></a> 
+          <li><a href="#principal">HOLA</a></li>
+          <li><a href="#mis_conocimientos">CONOCIMIENTOS</a></li> 
+          <li><a href="#mis_proyectos">PROYECTOS</a></li> 
+          <li id="contacto"><a href="#formulario">CONTACTO</a></li> 
         </ul>
       </nav>
 
       <!-- Seccion Principal -->
       <div class="principal" id="principal">
-        <div class="portada">
+        <div class="texto">
           <p class="p_principal">¡Hola! Soy</p>
           <h1 class="h1_principal">Maria Isabel</h1>
           <p class="texto_principal">
@@ -43,26 +44,28 @@
           <a href="#mis_proyectos" class="boton">LO QUE HAGO</a>
         </div>
         <div>
-          <img src="imagenes/principal.svg" alt="" class="img_principal" />
+          <img src="imagenes/principal.svg" alt="Desarrolladora" class="img_principal" />
         </div>
       </div>
 
       <!-- Seccion Conocimientos -->
       <div id="mis_conocimientos">
         <h1 class="h1_conocimientos">Mis Conocimientos</h1>
+        
         <p class="p_conocimientos">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque
           neque molestias consequuntur vel ab quas architecto.
         </p>
+      
         <div class="habilidades">
-          <div><i class="fa-brands fa-html5 icono"></i><br />HTML</div>
-          <div><i class="fa-brands fa-css3-alt icono"></i><br />CSS</div>
-          <div><i class="fa-brands fa-sass icono"></i><br />Sass</div>
+          <div><i aria hiden="true" class="fa-brands fa-html5 icono"></i><br />HTML</div>
+          <div><i aria hiden="true" class="fa-brands fa-css3-alt icono"></i><br />CSS</div>
+          <div><i aria hiden="true" class="fa-brands fa-sass icono"></i><br />Sass</div>
        
         
-          <div><i class="fa-brands fa-js icono"></i><br />JavaScript</div>
-          <div><i class="fa-brands fa-react icono"></i><br />React</div>
-          <div><i class="fa-brands fa-git-alt icono"></i><br />GIT</div>
+          <div><i aria hiden="true" class="fa-brands fa-js icono"></i><br />JavaScript</div>
+          <div><i aria hiden="true" class="fa-brands fa-react icono"></i><br />React</div>
+          <div><i aria hiden="true" class="fa-brands fa-git-alt icono"></i><br />GIT</div>
         </div> 
       </div>
 
@@ -83,23 +86,23 @@
           neque molestias consequuntur vel ab quas architecto.
         </p>
         <div class="proyectos">
-          <div><img src="imagenes/portfolio.png" alt=""  class="img_tamaño"/><br/>Portfolio</div>
-          <div><img src="imagenes/memes.svg" alt="" class="img_tamaño"/><br/>Generador de Memes</div>
-          <div><img src="imagenes/match.svg" alt="" class="img_tamaño"/><br/>Match 3</div>
+          <div><img src="imagenes/portfolio.png" alt="proyectos_portfolio"  class="img_tamaño"/><br/>Portfolio</div>
+          <div><img src="imagenes/memes.svg" alt="proyectos_generador_de_memes" class="img_tamaño"/><br/>Generador de Memes</div>
+          <div><img src="imagenes/match.svg" alt="proyectos_match3" class="img_tamaño"/><br/>Match 3</div>
         
        
-          <div><img src="imagenes/gastos.svg" alt="" class="img_tamaño"/><br/>Controlador de Gastos</div>
-          <div><img src="imagenes/reuniones.svg" alt="" class="img_tamaño"/><br/>Administrador de reuniones</div>
-          <div><img src="imagenes/app.svg" alt="" class="img_tamaño"/><br/>Todo App</div>
+          <div><img src="imagenes/gastos.svg" alt="proyectos_gastos" class="img_tamaño"/><br/>Controlador de Gastos</div>
+          <div><img src="imagenes/reuniones.svg" alt="poryectos_reuniones" class="img_tamaño"/><br/>Administrador de reuniones</div>
+          <div><img src="imagenes/app.svg" alt="proyectos_todo_app" class="img_tamaño"/><br/>Todo App</div>
         
         
-          <div  id="ultimo"><img src="imagenes/movies.svg" alt="" class="img_tamaño"  /><br/>Buscador de peliculas</div>
+          <div  id="ultimo"><img src="imagenes/movies.svg" alt="proyectos_peliculas" class="img_tamaño"  /><br/>Buscador de peliculas</div>
         </div>
       </div>
 
       <!-- Seccion Formulario -->
-      <div id="formulario">
-        <div id="form">
+      <div class="formulario" id="formulario">
+        <div class="form">
           <div class="contactame">
             <h1>Contactame</h1>
             <p>
@@ -113,25 +116,32 @@
               <a href="https://twitter.com/isalvaradof">@isalvaradof</a>
               <br /><br />
               <i class="fa-brands fa-github-alt redes"></i>
-              <a href="https://github.com/isabelalvarado21">Isabelalvarado21</a>
+              <a href="https://github.com/isabelalvarado21">@Isabelalvarado21</a>
               <br /><br />
               <i class="fa-brands fa-linkedin-in redes"></i>
               <a href="https://ar.linkedin.com/">LinkedIn</a>
               <br /><br />
               <i class="fa-solid fa-envelope redes"></i>
-              <a href="index.html">ada.lovelace@gmail.com</a> <br />
+              <a href="index.html">alvaradomariaisabel21@gmail.com</a> <br />
             </div>
           </div>
           <div class="escribeme">
             <h1>Escribime</h1>
             <form action="">
-              <label for="nombre">Nombre* </label>
-              <label for="apellido">Apellido* </label> <br />
-              <input type="text" placeholder="p. Ej.:Ada" />
-              <input type="text" placeholder="p. Ej.:Lovelace" /> <br />
+            <div class="textme">
+                <div class="textme2">
+              <label for="nombre">Nombre* </label> <br>
+              <input type="text"  nombre="nombre"  placeholder="p. Ej.:Ada" required/>
+                </div>
 
+                <div class="textme2" >
+              <label for="apellido">Apellido* </label> <br />
+              <input type="text" nombre="apellido" placeholder="p. Ej.:Lovelace" required /> <br />
+                </div>
+            </div>
+            
               <label for="email">Email* </label> <br />
-              <input type="email" placeholder="p. Ej.:ada.lovelace@gmail.com" />
+              <input type="email" nombre="email" placeholder="p. Ej.:ada.lovelace@gmail.com" required/>
               <br />
 
               <label for="consultas">Mensaje</label>
@@ -139,7 +149,7 @@
               <textarea
                 rows="10"
                 cols="40"
-                placeholder="Escriba su mensaje aqui"
+                placeholder="Escriba su mensaje aqui" 
               ></textarea>
               <br />
               <input type="submit" id="enviar" />
@@ -149,7 +159,7 @@
       </div>
 
       <!-- Seccion Footer -->
-      <footer class="barra_footer">
+     <footer class="barra_footer">
         <div class="footer">
           <ul class="opciones" id="opciones_footer">
               <li><a href="#principal">HOLA</li></a> 
@@ -159,16 +169,17 @@
           </ul>
         </div>
         <div class="footer">
-          <ul class="nav-footer">
-            <li><a href="https://twitter.com/isalvaradof"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://github.com/isabelalvarado21"><i class="fa-brands fa-github-alt"></i></a></li>
-            <li><a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href="index.html"><i class="fa-solid fa-envelope"></i></a></li>
+          <ul id="nav-footer">
+            <li><a href="https://twitter.com/isalvaradof"><i class="fa-brands fa-twitter  icono_footer"></i></a></li>
+            <li><a href="https://github.com/isabelalvarado21"><i class="fa-brands fa-github-alt icono_footer"></i></a></li>
+            <li><a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in icono_footer"></i></a></li>
+            <li><a href="index.html"><i class="fa-solid fa-envelope icono_footer"></i></a></li>
           </ul>
         </div>
         <br />
         <p>HECHO CON  <i class="fa-solid fa-heart"></i>  POR ISA</p>
-      </footer>
+      </footer> 
+      
     </div>
   </body>
 </html>
